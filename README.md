@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Aplicação API</title>
+</head>
+<body>
+  <h1>Aplicação API</h1>
+  <p>Esta API foi desenvolvida utilizando a versão 8.2 do PHP e o framework Laravel na versão mais atual. Para executar a aplicação, é necessário ter instalado na máquina o PHP 8.2 obrigatoriamente, juntamente com o Docker.</p>
+  <h2>Passo a passo para executar a aplicação</h2>
+  <ol>
+    <li>Certifique-se de ter o Docker instalado em sua máquina.</li>
+    <li>No diretório raiz da aplicação, abra o terminal e execute o seguinte comando:</li>
+  </ol>
+  <pre><code>docker-compose up -d mysql phpmyadmin</code></pre>
+  <p>Esse comando irá subir o banco de dados da aplicação no Docker. Aguarde até que o banco de dados esteja online.</p>
+  <ol start="3">
+    <li>Após o banco de dados estar online, execute o seguinte comando no terminal:</li>
+  </ol>
+  <pre><code>php artisan migrate</code></pre>
+  <p>Esse comando será responsável por criar todas as tabelas utilizadas na aplicação.</p>
+  <ol start="4">
+    <li>Em seguida, execute o comando abaixo para popular a aplicação com um usuário fictício que será utilizado no processo de login, uma vez que a funcionalidade de criação de usuário não foi implementada neste momento:</li>
+  </ol>
+  <pre><code>php artisan db:seed</code></pre>
+  <p>Parabéns! Agora a aplicação está pronta para ser executada.</p>
+  <h2>Documentação da API</h2>
+  <p>A documentação da API pode ser encontrada no arquivo <a href="link_para_arquivo_de_documentacao.md">API_DOC.md</a>.</p>
+  <h2>Licença</h2>
+  <p>Este projeto está licenciado sob a licença <a href="link_para_licenca">MIT</a>.</p>
+</body>
+</html>
