@@ -9,7 +9,7 @@
   <h2>Passo a passo para executar a aplicação</h2>
   <ol>
     <li>Certifique-se de ter o Docker instalado em sua máquina.</li>
-    <li>No diretório raiz da aplicação, abra o terminal e execute o seguinte comando:</li>
+    <li>No diretório laradock, abra o terminal e execute o seguinte comando:</li>
   </ol>
   <pre><code>docker-compose up -d mysql phpmyadmin</code></pre>
   <p>Esse comando irá subir o banco de dados da aplicação no Docker. Aguarde até que o banco de dados esteja online.</p>
