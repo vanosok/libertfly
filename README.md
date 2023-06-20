@@ -9,7 +9,7 @@
   <h2>Passo a passo para executar a aplicação</h2>
   <ol>
     <li>Certifique-se de ter o Docker instalado em sua máquina.</li>
-    <li>Instale o laradock na raiz do projeto o link do git está aqui <a href="https://github.com/laradock/laradock".>Laradock</a> ele será essencial para execução do docker</li>
+    <li>Deu um git clone no laradock na raiz desse projeto o link do git está aqui <a href="https://github.com/laradock/laradock".>Laradock</a> ele será essencial para execução do docker</li>
     <li>No diretório laradock, abra o terminal e execute o seguinte comando:</li>
   </ol>
   <pre><code>docker-compose up -d mysql phpmyadmin</code></pre>
