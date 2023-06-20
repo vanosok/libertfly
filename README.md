@@ -24,7 +24,7 @@
   <pre><code>php artisan db:seed</code></pre>
   <p>Parabéns! Agora a aplicação está pronta para ser executada.</p>
   <h2>Documentação da API</h2>
-  <p>A documentação da API pode ser encontrada no arquivo <a href="link_para_arquivo_de_documentacao.md">API_DOC.md</a>.</p>
+  <p>A documentação da API pode ser encontrada no arquivo <a href="https://documenter.getpostman.com/view/15706775/2s93sjVUtX">API_DOC.md</a>.</p>
    <h2>Executar a API</h2>
   <p>Para consumir a API, execute o seguinte comando no terminal:</p>
   <pre><code>php artisan serve</code></pre>
