@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Aplicação API</title>
 </head>
 <body>
   <h1>Aplicação API</h1>
@@ -10,7 +9,7 @@
   <h2>Passo a passo para executar a aplicação</h2>
   <ol>
     <li>Certifique-se de ter o Docker instalado em sua máquina.</li>
-    <li>No diretório raiz da aplicação, abra o terminal e execute o seguinte comando:</li>
+    <li>No diretório laradock, abra o terminal e execute o seguinte comando:</li>
   </ol>
   <pre><code>docker-compose up -d mysql phpmyadmin</code></pre>
   <p>Esse comando irá subir o banco de dados da aplicação no Docker. Aguarde até que o banco de dados esteja online.</p>
@@ -25,8 +24,9 @@
   <pre><code>php artisan db:seed</code></pre>
   <p>Parabéns! Agora a aplicação está pronta para ser executada.</p>
   <h2>Documentação da API</h2>
-  <p>A documentação da API pode ser encontrada no arquivo <a href="link_para_arquivo_de_documentacao.md">API_DOC.md</a>.</p>
-  <h2>Licença</h2>
-  <p>Este projeto está licenciado sob a licença <a href="link_para_licenca">MIT</a>.</p>
+  <p>A documentação da API pode ser encontrada no arquivo <a href="https://documenter.getpostman.com/view/15706775/2s93sjVUtX">API_DOC.md</a>.</p>
+   <h2>Executar a API</h2>
+  <p>Para consumir a API, execute o seguinte comando no terminal:</p>
+  <pre><code>php artisan serve</code></pre>
 </body>
 </html>
